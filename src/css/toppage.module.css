@@ -1,0 +1,292 @@
+.Other textarea {
+    width: 80%;
+    height: 200px;
+    outline: none;
+    margin-top: 5px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+}
+
+.Other .OtherField {
+    white-space: pre-wrap;
+}
+
+.Complete {
+    background-color: rgba(255, 255, 255, 0.87);
+    z-index: 10;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150vh;
+    color: black;
+}
+
+.Close {
+    font-size: 34px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.Close:hover {
+    cursor: pointer;
+}
+
+.Download {
+
+    border: 1px solid rgb(206, 203, 203);
+    width: 10%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+.Download:hover {
+    cursor: pointer;
+}
+
+.ContentField {
+    padding: 20px;
+}
+
+.ContentField textarea {
+    width: 80%;
+    height: 200px;
+    outline: none;
+    margin-top: 5px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+}
+
+.CommandField {
+    padding: 20px;
+}
+
+.FlowField {
+    padding: 20px;
+}
+
+.SideBarField {
+    padding: 20px;
+}
+
+.SideBarField textarea {
+    width: 80%;
+    height: 200px;
+    outline: none;
+    margin-top: 5px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+}
+
+.TitleField {
+    padding: 20px;
+}
+
+.TopField {
+    background-color: rgb(70, 69, 69);
+    color: rgb(228, 227, 227);
+    height: auto;
+    width: 45%;
+    height: 90vh;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+.TopField input[type=text] {
+    background-color: rgb(214, 216, 218);
+    width: 60%;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    border: 0;
+}
+
+.TopField input[type=number] {
+    background-color: rgb(234, 235, 236);
+    width: 20%;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.TopField label {
+    font-size: 14px;
+}
+
+.PulDownMenu {
+    margin-bottom: 10px;
+}
+
+.PulDownMenu:hover {
+    cursor: pointer;
+}
+
+.AddRemoveBotton:hover {
+    cursor: pointer;
+}
+
+
+.CreateField {
+    margin-top: 40px;
+    border: 1px solid white;
+    width: 10%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(148, 151, 153, 0.548);
+    border-radius: 5px;
+}
+
+.CreateField:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+
+    .Other textarea {
+        width: 80%;
+        height: 200px;
+        outline: none;
+        margin-top: 5px;
+        border: 1.5px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        resize: none;
+    }
+
+    .Other .OtherField {
+        white-space: pre-wrap;
+    }
+
+    .Complete {
+        background-color: rgba(255, 255, 255, 0.87);
+        z-index: 10;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        color: black;
+    }
+
+    .Close {
+        font-size: 34px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .Download {
+
+        border: 1px solid rgb(206, 203, 203);
+        width: 50%;
+        text-align: center;
+        border-radius: 5px;
+        background-color: aliceblue;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ContentField {
+        padding: 20px;
+    }
+
+    .ContentField textarea {
+        width: 80%;
+        height: 200px;
+        outline: none;
+        margin-top: 5px;
+        border: 1.5px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        resize: none;
+    }
+
+    .CommandField {
+        padding: 10px;
+    }
+
+    .FlowField {
+        padding: 10px;
+    }
+
+    .SideBarField {
+        padding: 10px;
+    }
+
+    .SideBarField textarea {
+        width: 80%;
+        height: 200px;
+        outline: none;
+        margin-top: 5px;
+        border: 1.5px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        resize: none;
+    }
+
+    .TitleField {
+        padding: 10px;
+    }
+
+    .TopField {
+        background-color: rgb(70, 69, 69);
+        color: rgb(228, 227, 227);
+        width: 100%;
+        height: 90vh;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-y: auto;
+    }
+
+    .TopField input[type=text] {
+        background-color: rgb(214, 216, 218);
+        width: 60%;
+        height: 30px;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 10px;
+        border: 0;
+    }
+
+    .TopField input[type=number] {
+        background-color: rgb(234, 235, 236);
+        width: 20%;
+        height: 30px;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 10px;
+    }
+
+    .TopField label {
+        font-size: 14px;
+    }
+
+    .PulDownMenu {
+        margin-bottom: 10px;
+    }
+
+    .CreateField {
+        margin-top: 40px;
+        border: 1px solid white;
+        width: 20%;
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(148, 151, 153, 0.548);
+        border-radius: 5px;
+    }
+
+}
