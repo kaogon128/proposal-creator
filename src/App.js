@@ -10,10 +10,10 @@ import Complete from "./components/Complete";
 function App() {
 
   const [title, setTitle] = useState("");
-  const [content, setContent] = useState({ time: { value: 0, config: false }, content: "" });
+  const [content, setContent] = useState({ time: { value: 0, config: false }, num: 0, content: "" });
   const [flow, setFlow] = useState([]);
   const [command, setCommand] = useState([]);
-  const [sideBar, setSideBar] = useState({ title: "", lines: [], explanation: ""});
+  const [sideBar, setSideBar] = useState({ title: "", lines: [], explanation: "" });
   const [other, setOther] = useState("");
 
   const [showTitle, setShowTitle] = useState(false);
@@ -31,37 +31,37 @@ function App() {
       <h1>企画書め～か～</h1>
       <div className={style.TopField}>
         <div onClick={() => setShowTitle(!showTitle)} className={style.PulDownMenu}>
-          {showTitle ? <GoTriangleDown/>: <GoTriangleRight/> } タイトルを編集する
+          {showTitle ? <GoTriangleDown /> : <GoTriangleRight />} タイトルを編集する
         </div>
         <div className={style.TitleField} style={{ display: showTitle ? "block" : "none" }}>
           <input type="text" placeholder="タイトルを入力してください" onChange={(e) => setTitle(e.target.value)} />
         </div>
         <div onClick={() => setShowContent(!showContent)} className={style.PulDownMenu}>
-        {showContent ? <GoTriangleDown/>: <GoTriangleRight/> } ゲーム内容を編集する
+          {showContent ? <GoTriangleDown /> : <GoTriangleRight />} ゲーム内容を編集する
         </div>
         <div className={style.Content} style={{ display: showContent ? "block" : "none" }}>
           <ContentCreator content={content} setContent={setContent} />
         </div>
         <div onClick={() => setShowFlow(!showFlow)} className={style.PulDownMenu}>
-        {showFlow ? <GoTriangleDown/>: <GoTriangleRight/> } ゲームの流れを編集する
+          {showFlow ? <GoTriangleDown /> : <GoTriangleRight />} ゲームの流れを編集する
         </div>
         <div className={style.Flow} style={{ display: showFlow ? "block" : "none" }}>
           <FlowCreator flow={flow} setFlow={setFlow} />
         </div>
         <div onClick={() => setShowCommand(!showCommand)} className={style.PulDownMenu}>
-        {showCommand ? <GoTriangleDown/>: <GoTriangleRight/> } コマンドを編集する
+          {showCommand ? <GoTriangleDown /> : <GoTriangleRight />} コマンドを編集する
         </div>
         <div className={style.Command} style={{ display: showCommand ? "block" : "none" }}>
           <CommandCreator command={command} setCommand={setCommand} />
         </div>
         <div onClick={() => setShowSideBar(!showSideBar)} className={style.PulDownMenu}>
-        {showSideBar ? <GoTriangleDown/>: <GoTriangleRight/> } サイドバーを編集する
+          {showSideBar ? <GoTriangleDown /> : <GoTriangleRight />} サイドバーを編集する
         </div>
         <div className={style.SideBar} style={{ display: showSideBar ? "block" : "none" }}>
           <SideBarCreator sideBar={sideBar} setSideBar={setSideBar} />
         </div>
         <div onClick={() => setShowOther(!showOther)} className={style.PulDownMenu}>
-        {showOther ? <GoTriangleDown/>: <GoTriangleRight/> } その他要望を編集する
+          {showOther ? <GoTriangleDown /> : <GoTriangleRight />} その他要望を編集する
         </div>
         <div className={style.Other} style={{ display: showOther ? "block" : "none" }}>
           <textarea name="" placeholder="要望を入力してください" id="" onChange={(e) => setOther(e.target.value)}></textarea>

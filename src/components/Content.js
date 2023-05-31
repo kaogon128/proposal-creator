@@ -14,6 +14,12 @@ const Content = ({ content }) => {
                     </td>
                 </tr>
                 <tr>
+                    <td>推奨プレイ人数</td>
+                    <td>
+                        {content.num === 0 ? "指定なし" : content.num + " 人"}
+                    </td>
+                </tr>
+                <tr>
                     <td>内容</td>
                     <td className={style.ContentField}>{content.content}</td>
                 </tr>

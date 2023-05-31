@@ -61,7 +61,7 @@ const SideBarCreator = ({ sideBar, setSideBar }) => {
                 ))
             }
             <div>
-                <textarea name="" id="" placeholder="捕捉等がある場合は入力してください" onChange={(e)=>changeExplanation(e)}></textarea>
+                <textarea name="" id="" placeholder="捕足等がある場合は入力してください" onChange={(e)=>changeExplanation(e)}></textarea>
             </div>
         </div>
     )
