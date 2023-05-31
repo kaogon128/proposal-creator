@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/proposal-creator/static/css/main.766a2d68.css",
-    "main.js": "/proposal-creator/static/js/main.172e038b.js",
+    "main.js": "/proposal-creator/static/js/main.71f94021.js",
     "static/js/498.425b69e0.chunk.js": "/proposal-creator/static/js/498.425b69e0.chunk.js",
     "static/js/703.346d3233.chunk.js": "/proposal-creator/static/js/703.346d3233.chunk.js",
     "static/js/168.347739af.chunk.js": "/proposal-creator/static/js/168.347739af.chunk.js",
     "index.html": "/proposal-creator/index.html",
     "main.766a2d68.css.map": "/proposal-creator/static/css/main.766a2d68.css.map",
-    "main.172e038b.js.map": "/proposal-creator/static/js/main.172e038b.js.map",
+    "main.71f94021.js.map": "/proposal-creator/static/js/main.71f94021.js.map",
     "498.425b69e0.chunk.js.map": "/proposal-creator/static/js/498.425b69e0.chunk.js.map",
     "703.346d3233.chunk.js.map": "/proposal-creator/static/js/703.346d3233.chunk.js.map",
     "168.347739af.chunk.js.map": "/proposal-creator/static/js/168.347739af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.766a2d68.css",
-    "static/js/main.172e038b.js"
+    "static/js/main.71f94021.js"
   ]
 }
